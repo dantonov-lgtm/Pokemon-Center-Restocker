@@ -6,7 +6,7 @@ from playwright.sync_api import sync_playwright
 # Configuration
 URL = "https://www.pokemoncenter.com/"
 DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1519156442727190632/wYlmLQMw4ViMlj7bZdgTo6tj96iw8nArL3LQoRDJ-rDGNZFxaHRhjyZD0hmC37L75ajY"
-CHECK_INTERVAL_SECONDS = 60 
+CHECK_INTERVAL_SECONDS = 600 
 
 
 def send_discord_alert(message: str):
